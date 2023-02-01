@@ -5,10 +5,10 @@ const {
   payTransaction,
 } = require("../controllers/apiController");
 
-//Listado y recuento de usuarios
+//Creación de transacción
 route.post("/api/transactions", createTransaction);
 
-//Detalle de usuario
+//Pago de transacción
 route.post("/api/payments", payTransaction);
 
 module.exports = route;
