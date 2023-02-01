@@ -29,6 +29,38 @@ module.exports = {
         name: "Lautaro",
         email: "lautaro@gmail.com",
       },
+      {
+        name: "Ricardo",
+        email: "ricardo@gmail.com",
+      },
+      {
+        name: "Edgardo",
+        email: "edgardo@gmail.com",
+      },
+      {
+        name: "Antonio",
+        email: "antonio@gmail.com",
+      },
+      {
+        name: "Anibal",
+        email: "anibal@gmail.com",
+      },
+      {
+        name: "Lionel",
+        email: "lionel@gmail.com",
+      },
+      {
+        name: "Leonel",
+        email: "leonel@gmail.com",
+      },
+      {
+        name: "Sergio",
+        email: "sergio@gmail.com",
+      },
+      {
+        name: "Hernan",
+        email: "hernan@gmail.com",
+      },
     ]);
   },
 

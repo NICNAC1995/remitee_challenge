@@ -29,6 +29,46 @@ module.exports = {
         name: "goma de borrar",
         price: 150,
       },
+      {
+        name: "airpods",
+        price: 7000,
+      },
+      {
+        name: "iphone",
+        price: 8000,
+      },
+      {
+        name: "macbook",
+        price: 9500,
+      },
+      {
+        name: "Silla",
+        price: 500,
+      },
+      {
+        name: "Sillón",
+        price: 3000,
+      },
+      {
+        name: "Libro",
+        price: 700,
+      },
+      {
+        name: "Libreta",
+        price: 400,
+      },
+      {
+        name: "Vaso",
+        price: 100,
+      },
+      {
+        name: "Billetera",
+        price: 300,
+      },
+      {
+        name: "Perfume",
+        price: 800,
+      },
     ]);
   },
 

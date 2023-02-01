@@ -37,4 +37,13 @@ FROM `products`
 LEFT JOIN `transactions` 
 ON products.id = transactions.product_id
 ORDER BY highest_quantity DESC
+LIMIT 1
+
+--Este último punto, también puede resolverse de la siguiente manera:
+
+SELECT products.name as product, transactions.quantity as highest_quantity
+FROM `products`
+INNER JOIN `transactions`
+ON products.id = transactions.product_id
+WHERE transactions.quantity = (SELECT MAX(transactions.quantity) FROM transactions)
 
